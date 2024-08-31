@@ -15,6 +15,8 @@ public class helloworld {
         System.out.println("How old are you?");
         int age = scnr.nextInt();
 
+        System.out.println("Thanks!");
+
         System.out.println("Hi " + name + " you are " + age + " years old.");
 
 
