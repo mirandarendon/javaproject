@@ -12,7 +12,11 @@ public class helloworld {
         System.out.println("What is your name?");
         String name = scnr.nextLine();
 
-        System.out.println("Hi " + name);
+        System.out.println("How old are you?");
+        int age = scnr.nextInt();
+
+        System.out.println("Hi " + name + " you are " + age + " years old.");
+
 
 scnr.close();
     }
